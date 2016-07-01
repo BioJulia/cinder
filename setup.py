@@ -1,21 +1,21 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.9.4'
+VERSION = '1.0.0'
 
 
 setup(
-    name="mkdocs-cinder",
+    name="mkdocs-biojulia",
     version=VERSION,
-    url='https://github.com/chrissimpkins/cinder',
+    url='https://github.com/BioJulia/mkdocs-biojulia',
     license='MIT',
-    description='A clean responsive theme for the MkDocs static documentation site generator',
-    author='Christopher Simpkins',
-    author_email='chris@sourcefoundry.org',
+    description='',
+    author='The BioJulia Organisation',
+    author_email='axolotlfan9250@gmail.com',
     packages=find_packages(),
     include_package_data=True,
     entry_points={
         'mkdocs.themes': [
-            'cinder = cinder',
+            'biojulia = biojulia',
         ]
     },
     zip_safe=False

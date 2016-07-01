@@ -1,10 +1,9 @@
-site_name: Cinder
-theme_dir: cinder
-site_author: Christopher Simpkins
-site_description: "A clean, responsive theme for static documentation websites that are generated with MkDocs"
+site_name: BioJulia MkDocs Theme
+theme_dir: mkdocs-biojulia
+site_author: The BioJulia Organisation
+site_description: "MkDocs theme used by the BioJulia organisation for manual pages."
 repo_url: "https://github.com/chrissimpkins/cinder"
-copyright: "Cinder is licensed under the <a href='https://github.com/chrissimpkins/cinder/blob/master/LICENSE.md'>MIT license</a>"
+copyright: "MkDocs BioJulia is licensed under the <a href='https://github.com/BioJulia/mkdocs-biojulia/blob/master/LICENSE.md'>MIT license</a>"
 pages:
   - Home: index.md
   - Specimen: specimen.md
-

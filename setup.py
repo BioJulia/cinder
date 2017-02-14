@@ -1,17 +1,14 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.0.0'
-
-
 setup(
-    name="mkdocs-biojulia",
-    version=VERSION,
-    url='https://github.com/BioJulia/mkdocs-biojulia',
-    license='MIT',
-    description='',
+    name = 'mkdocs-biojulia',
+    packages = find_packages(),
+    version = '1.0.1',
+    description='Mkdocs Cinder theme customised for BioJulia.',
     author='The BioJulia Organisation',
-    author_email='axolotlfan9250@gmail.com',
-    packages=find_packages(),
+    author_email='Ward9250@gmail.com',
+    url = 'https://github.com/BioJulia/mkdocs-biojulia',
+    license='MIT',
     include_package_data=True,
     entry_points={
         'mkdocs.themes': [
